@@ -1,0 +1,68 @@
+/* basic styling*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: black;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+/* nav bar and logo styling*/
+
+img {
+    float: left;
+    width: 150px;
+    margin-left: 30px;
+    margin-top: -15px;
+}
+
+img:hover {
+    animation-name: logo-zoom;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+
+@keyframes logo-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#nav-bar {
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#nav-bar, img {
+    line-height: 75px;
+}
+
+#nav-bar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.selected {
+    border-bottom: 1px solid white;
+}
+
+#nav-bar a:hover {
+    border-bottom: 1px solid red;
+    color: red;
+}
+
