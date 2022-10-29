@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: black;
 }
 
 body {
@@ -13,6 +12,12 @@ body {
 }
 
 /* nav bar and logo styling*/
+
+ header {
+    position: absolute;
+    float: right;
+    width: 100%;
+ }
 
 img {
     float: left;
@@ -39,6 +44,7 @@ img:hover {
 #nav-bar {
     font-size: 110%;
     letter-spacing: 3px;
+    
 }
 
 #nav-bar, img {
@@ -50,6 +56,7 @@ img:hover {
     list-style-type: none;
     margin-right: 30px;
     margin-top: 15px;
+    
 }
 
 #nav-bar a {
@@ -77,10 +84,59 @@ img:hover {
     align-items: center;
     
     text-align: center;
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/assets/images/pexels-victor-freitas-841130.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
 .hero h1{
-    font-size: 5em;
+    font-size: 150px;
     margin-top: 0;
     margin-bottom: 0.5em;
+    background-color: transparent;
 }
+
+.slogan-zoom {
+    animation-name: slo-zoom;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+
+@keyframes slo-zoom {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1.0);
+    }
+}
+
+
+
+/* Journey button styling */
+
+.button {
+    display: inline;
+    width: 150px;
+    border: 1px solid white;
+    padding: 1em;
+    
+    border-radius: 30px;
+    font-size: 30px;
+
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: white;
+    text-decoration: none;
+}
+
+ .button:hover {
+    color: red;
+    border: 1px solid red;
+ }
