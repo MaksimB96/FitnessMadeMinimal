@@ -66,3 +66,21 @@ img:hover {
     color: red;
 }
 
+/* Hero Styling*/
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
