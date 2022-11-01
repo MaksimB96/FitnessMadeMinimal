@@ -12,6 +12,12 @@ body {
     background-color: black;
 }
 
+
+
+body p {
+    font-family: 'Montserrat', sans-serifs;
+}
+
 /* nav bar and logo styling*/
 
  header {
@@ -168,3 +174,76 @@ img:hover {
 i:hover {
     color: red;
  }
+
+ #page2-3 {
+    position: relative;
+ }
+
+ #about h1 {
+    text-align: center;
+    font-size: 60px;
+ }
+
+ #about p {
+    text-align: center;
+    padding: 30px 160px;
+ }
+
+ /* Trinity Styling */
+
+ #trinity-of-fitness h1 {
+    text-align: center;
+    font-size: 100px;
+ }
+
+ #parent {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-top: 30px;
+ } 
+
+ #parent h2 {
+    text-align: center;
+    line-height: 15;
+    font-size: 30px;
+  }
+
+  .left {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border: 60px;
+    border-radius: 10px;
+    background-image: url('/assets/images/pexels-pixabay-209449.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+
+  .center {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border: 60px;
+    border-radius: 10px;
+    background-image: url('/assets/images/pexels-cottonbro-4753987.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  .right {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border: 60px;
+    border-radius: 10px;
+    background-image: url('/assets/images/pexels-ketut-subiyanto-4426461.jpg');
+    background-size: cover;
+    background-position: right;
+    margin: 0 auto;
+  }
+
+ 
