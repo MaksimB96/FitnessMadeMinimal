@@ -71,6 +71,8 @@ img:hover {
     color: white;
 }
 
+/* nav bar selected and hover effect */
+
 .selected {
     border-bottom: 1px solid white;
 }
@@ -107,6 +109,8 @@ img:hover {
     background-color: transparent;
 }
 
+/* main slogan effect */
+
 .slogan-zoom {
     animation-name: slo-zoom;
     animation-fill-mode: forwards;
@@ -121,8 +125,6 @@ img:hover {
         transform: scale(1.0);
     }
 }
-
-
 
 /* Journey button styling */
 
@@ -143,6 +145,8 @@ img:hover {
     color: white;
     text-decoration: none;
 }
+
+/* journey button hover effect*/
 
  .button:hover {
     color: red;
@@ -171,9 +175,13 @@ img:hover {
     color: white;
  }
 
+/* socials hover effect*/
+
 i:hover {
     color: red;
  }
+
+ /* about page styling*/
 
  #page2-3 {
     position: relative;
