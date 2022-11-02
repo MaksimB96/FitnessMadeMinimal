@@ -217,6 +217,10 @@ i:hover {
     font-size: 30px;
   }
 
+#parent i:hover {
+    color: white;
+}
+
   .left {
     width: 400px;
     height: 400px;
