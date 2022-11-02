@@ -92,7 +92,7 @@ img:hover {
     
     text-align: center;
 
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/assets/images/pexels-victor-freitas-841130.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/assets/images/barbell.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -215,7 +215,7 @@ i:hover {
     padding: 10px;
     border: 60px;
     border-radius: 10px;
-    background-image: url('/assets/images/pexels-pixabay-209449.jpg');
+    background-image: url('/assets/images/apple.jpg');
     background-size: cover;
     background-position: center;
     margin: 0 auto;
@@ -228,7 +228,7 @@ i:hover {
     padding: 10px;
     border: 60px;
     border-radius: 10px;
-    background-image: url('/assets/images/pexels-cottonbro-4753987.jpg');
+    background-image: url('/assets/images/dumbell.jpg');
     background-size: cover;
     background-position: center;
     margin: 0 auto;
@@ -240,7 +240,7 @@ i:hover {
     padding: 10px;
     border: 60px;
     border-radius: 10px;
-    background-image: url('/assets/images/pexels-ketut-subiyanto-4426461.jpg');
+    background-image: url('/assets/images/rest.jpg');
     background-size: cover;
     background-position: right;
     margin: 0 auto;
