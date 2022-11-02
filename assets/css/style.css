@@ -26,14 +26,14 @@ body p {
     width: 100%;
  }
 
-img {
+.mf-logo {
     float: left;
     width: 150px;
     margin-left: 30px;
     margin-top: -15px;
 }
 
-img:hover {
+.mf-logo:hover {
     animation-name: logo-zoom;
     animation-fill-mode: forwards;
     animation-duration: 2s;
@@ -49,9 +49,9 @@ img:hover {
 }
 
 #nav-bar {
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 3px;
-    
+    margin-top: 30px;
 }
 
 #nav-bar, img {
