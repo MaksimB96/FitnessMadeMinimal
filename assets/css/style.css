@@ -18,9 +18,9 @@ body p {
     font-family: 'Montserrat', sans-serifs;
 }
 
-/* nav bar and logo styling*/
+/* nav bar and logo styling for home page*/
 
- header {
+ #home-page {
     position: absolute;
     float: right;
     width: 100%;
@@ -78,6 +78,47 @@ body p {
 }
 
 #nav-bar a:hover {
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+/* nav bar for following pages*/
+
+header {
+    height: 150px;
+}
+
+#nav-bar-other {
+    font-size: 120%;
+    letter-spacing: 3px;
+    margin-top: 17px;
+    z-index: 1;
+}
+
+#nav-bar-other, img {
+    line-height: 75px;
+}
+
+#nav-bar-other li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 15px;
+    
+}
+
+#nav-bar-other a {
+    text-decoration: none;
+    color: white;
+}
+
+/* nav bar selected and hover effect */
+
+.selected {
+    border-bottom: 1px solid white;
+}
+
+#nav-bar-other a:hover {
     border-bottom: 1px solid red;
     color: red;
 }
@@ -182,79 +223,5 @@ i:hover {
  }
 
  /* about page styling*/
-
- #page2-3 {
-    position: relative;
- }
- 
- .img-of-me {
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    margin: 30px 30px 30px 50px;
-    
-    
- }
-
- /* Trinity Styling */
-
- #trinity-of-fitness h1 {
-    text-align: center;
-    font-size: 100px;
- }
-
- #parent {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    padding-top: 30px;
- } 
-
- #parent h2 {
-    text-align: center;
-    line-height: 15;
-    font-size: 30px;
-  }
-
-#parent i:hover {
-    color: white;
-}
-
-  .left {
-    width: 400px;
-    height: 400px;
-    padding: 10px;
-    border: 60px;
-    border-radius: 10px;
-    background-image: url('/assets/images/apple.jpg');
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-  }
-
-
-  .center {
-    width: 400px;
-    height: 400px;
-    padding: 10px;
-    border: 60px;
-    border-radius: 10px;
-    background-image: url('/assets/images/dumbell.jpg');
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-  }
-
-  .right {
-    width: 400px;
-    height: 400px;
-    padding: 10px;
-    border: 60px;
-    border-radius: 10px;
-    background-image: url('/assets/images/rest.jpg');
-    background-size: cover;
-    background-position: right;
-    margin: 0 auto;
-  }
 
  
