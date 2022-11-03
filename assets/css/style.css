@@ -6,10 +6,19 @@
     border: none;
 }
 
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --red: #ff0000;
+
+}
+
 body {
     font-family: 'Bebas Neue', cursive;
     color: white;
-    background-color: black;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -68,18 +77,18 @@ body p {
 
 #nav-bar a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 /* nav bar selected and hover effect */
 
 .selected {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--white);
 }
 
 #nav-bar a:hover {
-    border-bottom: 1px solid red;
-    color: red;
+    border-bottom: 1px solid var(--red);
+    color: var(--red);
 }
 
 /* nav bar for following pages*/
@@ -109,18 +118,18 @@ header {
 
 #nav-bar-other a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 /* nav bar selected and hover effect */
 
 .selected {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--white);
 }
 
 #nav-bar-other a:hover {
-    border-bottom: 1px solid red;
-    color: red;
+    border-bottom: 1px solid var(--red);
+    color:var(--red);
 }
 
 /* Hero Styling*/
@@ -172,7 +181,7 @@ header {
 .button {
     display: inline;
     width: 150px;
-    border: 1px solid white;
+    border: 1px solid var(--white);
     padding: 1em;
     
     border-radius: 30px;
@@ -183,22 +192,22 @@ header {
     margin-left: auto;
     margin-right: auto;
 
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
 
 /* journey button hover effect*/
 
  .button:hover {
-    color: red;
-    border: 1px solid red;
+    color: var(--red);
+    border: 1px solid var(--red);
  }
 
  /* footer styling */
 
  footer {
     height: 200px;
-    background-color: black;
+    background-color: var(--black);
  }
 
  .socials {
@@ -213,13 +222,13 @@ header {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: white;
+    color: var(--white);
  }
 
 /* socials hover effect*/
 
 i:hover {
-    color: red;
+    color: var(--red);
  }
 
  /* about page styling*/
