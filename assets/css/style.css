@@ -17,8 +17,7 @@ body {
     font-family: 'Bebas Neue', cursive;
     color: white;
     background-color: var(--black);
-    display: flex;
-    flex-direction: column;
+    margin: 0;
 }
 
 
@@ -29,7 +28,7 @@ body p {
 
 /* nav bar and logo styling for home page*/
 
- #home-page {
+ header {
     position: absolute;
     float: right;
     width: 100%;
@@ -91,46 +90,7 @@ body p {
     color: var(--red);
 }
 
-/* nav bar for following pages*/
 
-header {
-    height: 150px;
-}
-
-#nav-bar-other {
-    font-size: 120%;
-    letter-spacing: 3px;
-    margin-top: 17px;
-    z-index: 1;
-}
-
-#nav-bar-other, img {
-    line-height: 75px;
-}
-
-#nav-bar-other li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-    margin-top: 15px;
-    
-}
-
-#nav-bar-other a {
-    text-decoration: none;
-    color: var(--white);
-}
-
-/* nav bar selected and hover effect */
-
-.selected {
-    border-bottom: 1px solid var(--white);
-}
-
-#nav-bar-other a:hover {
-    border-bottom: 1px solid var(--red);
-    color:var(--red);
-}
 
 /* Hero Styling*/
 
@@ -206,8 +166,7 @@ header {
  /* footer styling */
 
  footer {
-    height: 200px;
-    background-color: var(--black);
+    height: 150px;
  }
 
  .socials {
@@ -231,6 +190,14 @@ i:hover {
     color: var(--red);
  }
 
- /* about page styling*/
+ /* about page header styling*/
 
- 
+.hero-2 {
+    width: 100vw;
+    height: 150px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/assets/images/dumbell-rack.jpg') ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
