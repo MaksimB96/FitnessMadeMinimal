@@ -10,6 +10,7 @@
     --black: #000000;
     --white: #ffffff;
     --red: #ff0000;
+    --grey: #686a6c;
 
 }
 
@@ -190,7 +191,7 @@ i:hover {
     color: var(--red);
  }
 
- /* about page header styling*/
+ /* header styling for website past home page*/
 
 .hero-2 {
     width: 100vw;
@@ -200,4 +201,19 @@ i:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+/* about section*/
+
+.about-cont {
+    width: 100vw;
+    height: 300px;
+    background-color: var(--grey);
+}
+
+.about-cont h1 {
+    font-size: 40px;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px var(--black);
 }
