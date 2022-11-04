@@ -11,7 +11,7 @@
     --white: #ffffff;
     --red: #ff0000;
     --grey: #686a6c;
-
+    --matte-black: #28282B;
 }
 
 body {
@@ -105,7 +105,7 @@ body p {
     
     text-align: center;
 
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../assets/images/barbell.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/assets/images/barbell.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -196,7 +196,7 @@ i:hover {
 .hero-2 {
     width: 100vw;
     height: 150px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../assets/images/dumbell-rack.jpg') ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/assets/images/dumbell-rack.jpg') ;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -208,7 +208,7 @@ i:hover {
 .about-cont {
     width: 100vw;
     height: 300px;
-    background-color: var(--grey);
+    background-color: var(--matte-black);
 }
 
 .about-cont h1 {
@@ -216,4 +216,15 @@ i:hover {
     padding-top: 10px;
     text-align: center;
     text-shadow: 1px 1px 2px var(--black);
+}
+
+.about-p {
+    text-align: center;
+    line-height: 30px;
+    text-shadow: 1px 1px 2px var(--black);
+}
+
+.about-me-cont {
+    width: 100vw;
+    height: 300px;
 }
