@@ -270,7 +270,7 @@ i:hover {
 
 /* diet training and rest div styling */
 
-
+/* pointer events removal from w3schools*/
 
 .dtr-cont{
     display: flex;
@@ -333,4 +333,52 @@ i:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
+}
+
+/* collapsible paragrph styling */
+
+#dropdown-menu {
+    width: 100vw;
+}
+
+#dropdown-menu li{
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: url(/assets/images/dumbell-rack.jpg) center no-repeat;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#dropdown-menu li label {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#dropdown-menu li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+
+}
+
+#dropdown-menu label + input[type="radio"]{
+    display: none;
+}
+
+#dropdown-menu .content {
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5sec;
+
+}
+
+#dropdown-menu label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+
 }
