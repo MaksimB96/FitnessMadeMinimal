@@ -345,14 +345,12 @@ i:hover {
     list-style-type: none;
     width: 100%;
     margin-bottom: 10px;
-    background: url(/assets/images/dumbell-rack.jpg) center no-repeat;
-    object-fit: cover;
-    padding: 10px;
+    padding: 0;
     border-radius: 4px;
 }
 
 #dropdown-menu li label {
-    padding: 10px;
+    padding: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -375,10 +373,26 @@ i:hover {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5sec;
+    background-color: var(--matte-black);
 
 }
 
 #dropdown-menu label + input[type="radio"]:checked + .content{
     max-height: 400px;
 
+}
+
+.first {
+    background: url('/assets/images/pineapples.jpg') center no-repeat;
+    object-fit: cover;
+}
+
+.second {
+    background: url('/assets/images/gymhll.jpg') center no-repeat;
+    object-fit: cover;
+}
+
+.third {
+    background: url('/assets/images/bedrest.jpg') center no-repeat;
+    object-fit: cover;
 }
