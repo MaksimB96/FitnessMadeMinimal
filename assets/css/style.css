@@ -243,7 +243,7 @@ i:hover {
     width: 300px;
     border-radius: 50%;
     background-color: var(--white);
-    border:20px solid var(--matte-black);
+    border:20px solid var(--red);
     margin-left: 30px;
     /* Shape outside tool inspo from Kevin Powell Youtube*/
     shape-outside: circle(46.6%);
@@ -264,7 +264,73 @@ i:hover {
     margin-top: -23px;
     margin-left: 134px;
     line-height: 30px;
-    background-color: var(--matte-black);
+    background-color: var(--red);
     text-shadow: 1px 1px 2px var(--black);
 }
 
+/* diet training and rest div styling */
+
+
+
+.dtr-cont{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.pillars{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.dtr-cont img{
+    margin: 30px 30px;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+/* Transform values and centering text and pointer eventsfrom w3 schools*/
+
+.diet-cont  {
+    position: relative;
+    text-align: center;
+}
+
+    
+
+.cent-diet  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.train-cont  {
+    position: relative;
+    text-align: center;
+}
+
+.cent-train  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.rest-cont  {
+    position: relative;
+    text-align: center;
+}
+
+.cent-rest  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
