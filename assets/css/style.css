@@ -276,6 +276,7 @@ i:hover {
     display: flex;
     justify-content: center;
     margin: 30px;
+    pointer-events: none;
 }
 
 .pillars{
@@ -298,7 +299,6 @@ i:hover {
     position: relative;
     text-align: center;
 }
-
     
 
 .cent-diet  {
