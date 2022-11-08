@@ -372,7 +372,7 @@ i:hover {
 }
 
 #dropdown-menu .content {
-    padding: 0 10px;
+    padding: 10px 10px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.7sec;
