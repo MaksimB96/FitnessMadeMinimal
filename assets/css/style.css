@@ -12,6 +12,9 @@
     --red: #ff0000;
     --grey: #686a6c;
     --matte-black: #28282B;
+    /* root font familys */
+    --bebas-neue: 'Bebas Neue', cursive;
+    --montserrt: 'Montserrat', sans-serifs;
 }
 
 body {
@@ -372,7 +375,7 @@ i:hover {
 }
 
 #dropdown-menu .content {
-    padding: 10px 10px;
+    padding: 0 10px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.7sec;
@@ -398,4 +401,12 @@ i:hover {
 .third {
     background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/assets/images/bedrest.jpg') center no-repeat;
     object-fit: cover;
+}
+
+/* Ul in diet accordion segment*/
+
+.am-ul {
+    text-align: center;
+    font-family: var(--montserrt);
+    margin-top: 15px;
 }
