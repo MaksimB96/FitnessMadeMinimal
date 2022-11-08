@@ -410,3 +410,7 @@ i:hover {
     font-family: var(--montserrt);
     margin-top: 15px;
 }
+
+.content a{
+    color: var(--red);
+}
