@@ -414,3 +414,7 @@ i:hover {
 .content a{
     color: var(--red);
 }
+
+.content .jn-min {
+    text-align: center;
+}
