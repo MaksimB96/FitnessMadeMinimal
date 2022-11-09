@@ -417,4 +417,9 @@ i:hover {
 
 .content .jn-min {
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin-top: 10px;
 }
