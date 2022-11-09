@@ -376,14 +376,15 @@ i:hover {
 
 #dropdown-menu .content {
     padding: 0 10px;
+    max-height: 0;
     overflow: hidden;
-    transition: max-height 0.7sec;
+    transition: max-height 0.5sec;
     background-color: var(--matte-black);
 
 }
 
 #dropdown-menu label + input[type="radio"]:checked + .content{
-    max-height: auto;
+    max-height: 600px;
 
 }
 
