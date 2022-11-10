@@ -210,7 +210,7 @@ i:hover {
 
 .about-cont {
     width: 100vw;
-    height: 250px;
+    height: auto;
     background-color: var(--matte-black);
 }
 
