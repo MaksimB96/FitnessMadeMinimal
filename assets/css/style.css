@@ -458,3 +458,19 @@ i:hover {
     box-shadow: 0 0 10px;
 }
 
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.item, .mes {
+    width: 48%;
+}
+
+.item .inputs, .mes textarea {
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid var(--white);
+}
