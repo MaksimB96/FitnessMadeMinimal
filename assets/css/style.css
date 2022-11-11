@@ -455,6 +455,7 @@ i:hover {
 .ginc-box form {
     max-width: 550px;
     margin: 0 auto;
+    margin-bottom: 60px;
     background: rgba(0, 0, 0, 0.5);
     padding: 60px;
     border-radius: 5px;
@@ -496,4 +497,8 @@ i:hover {
     border-radius: 5px;
     height: 30px;
     width: 100%;
+    font-family: var(--montserrt);
+    background: var(--red);
+    color: white;
+    cursor: pointer;
 }
