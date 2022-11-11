@@ -38,16 +38,23 @@
         <div class="contact-box">
             <h1>Get in Contact!</h1>
             <div class="ginc-box">
-                <div class="item">
-                    <input type="text" class="inputs" placeholder="Name">
-                    <input type="email" class="inputs" placeholder="E-mail">
-                    <input type="text" class="inputs" placeholder="Phone">
-                    <input type="text" class="inputs" placeholder="Question">
-                </div>
-                <div class="mes">
-                    <textarea placeholder="Additional Info"></textarea>
-                    <div class="btn-q">Submit</div>
-                </div>
+                <form action="https://formdump.codeinstitute.net" method="POST"></form>
+                    <div class="item">
+                            <!-- form dump used from code institute -->
+                            <input type="text" class="inputs" placeholder="Name" required>
+                            <input type="email" name="email" class="inputs" placeholder="E-mail" required>
+                            <input type="text" class="inputs" placeholder="Phone" required>
+                            <input type="text" class="inputs" placeholder="Question" required>
+                    
+                    </div>
+                        <div class="mes">
+                            <textarea placeholder="Additional Info"></textarea>
+                         </div>
+                        <div class="btn-q">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                </form>
             </div>
            
         </div>

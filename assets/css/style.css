@@ -489,10 +489,12 @@ i:hover {
 
 /* submit styling */
 
-.btn-q {
+.btn-q input{
     background: var(--red);
     text-align: center;
+    align-items: center;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
