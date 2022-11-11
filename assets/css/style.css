@@ -480,6 +480,7 @@ i:hover {
     background: transparent;
     border: 0;
     border-bottom: 2px solid var(--white);
+    font-family: var(--montserrt);
     padding: 10px;
     color: var(--white);
     width: 100%;
