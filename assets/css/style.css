@@ -109,7 +109,7 @@ body p {
     
     text-align: center;
 
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/assets/images/barbell.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/barbell.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -200,7 +200,7 @@ i:hover {
 .hero-2 {
     width: 100vw;
     height: 150px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/assets/images/dumbell-rack.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/dumbell-rack.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -390,17 +390,17 @@ i:hover {
 }
 
 .first {
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/assets/images/pineapples.jpg') center no-repeat;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/pineapples.jpg') center no-repeat;
     object-fit: cover;
 }
 
 .second {
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/assets/images/gymhll.jpg') center no-repeat;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/gymhll.jpg') center no-repeat;
     object-fit: cover;
 }
 
 .third {
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/assets/images/bedrest.jpg') center no-repeat;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/bedrest.jpg') center no-repeat;
     object-fit: cover;
 }
 
@@ -430,7 +430,7 @@ i:hover {
 .contact-section{
     height: 65vh;
     width: 100vw;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/assets/images/running-woman-sun.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/running-woman-sun.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -509,6 +509,10 @@ i:hover {
 .error-page {
     height: 100vh;
     width: 100vw;
-    background: url('/assets/images/404-page.jpg') center center no-repeat;
-    object-fit: cover;
+    background: url('../images/404-page.jpg') center center no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
 }
