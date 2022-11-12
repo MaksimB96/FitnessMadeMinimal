@@ -503,3 +503,12 @@ i:hover {
     color: white;
     cursor: pointer;
 }
+
+/* 404 page styling */
+
+.error-page {
+    height: 100vh;
+    width: 100vw;
+    background: url('/assets/images/404-page.jpg') center center no-repeat;
+    object-fit: cover;
+}
