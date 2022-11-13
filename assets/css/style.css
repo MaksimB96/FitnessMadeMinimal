@@ -26,14 +26,42 @@ body {
 }
 
 
-
 body p {
     font-family: 'Montserrat', sans-serifs;
 }
 
+.home-p{
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/barbell.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
 /* nav bar and logo styling for home page*/
 
+.navbar{
+    color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
 
+.list{
+    list-style-type: none;
+}
+
+.list .li-it{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.mf-logo{
+    height: 110px;
+}
 
 /* nav bar selected and hover effect */
 
@@ -41,7 +69,11 @@ body p {
     border-bottom: 1px solid var(--white);
 }
 
-#nav-bar a:hover {
+.navbar a{
+    color: var(--white);
+}
+
+.navbar a:hover {
     border-bottom: 1px solid var(--red);
     color: var(--red);
 }
@@ -59,12 +91,6 @@ body p {
     align-items: center;
     
     text-align: center;
-
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/barbell.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 
 }
 
