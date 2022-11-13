@@ -73,6 +73,7 @@ body p {
 
 .navbar a{
     color: var(--white);
+    text-decoration: none;
 }
 
 .navbar a:hover {
