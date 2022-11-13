@@ -35,15 +35,14 @@ body p {
 
  header {
     position: absolute;
-    float: right;
     width: 100%;
  }
 
 .mf-logo {
-    float: left;
     width: 150px;
     margin-left: 30px;
     margin-top: -15px;
+    float: left;
 }
 
 .mf-logo:hover {
@@ -100,7 +99,7 @@ body p {
 /* Hero Styling*/
 
 .hero {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 
     display: flex;
@@ -198,7 +197,7 @@ i:hover {
  /* header styling for website past home page*/
 
 .hero-2 {
-    width: 100vw;
+    width: 100%;
     height: 150px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/dumbell-rack.jpg');
     background-position: center center;
@@ -210,7 +209,7 @@ i:hover {
 /* about section*/
 
 .about-cont {
-    width: 100vw;
+    width: 100%;
     height: auto;
     background-color: var(--matte-black);
 }
@@ -229,7 +228,7 @@ i:hover {
 }
 
 .about-me-cont {
-    width: 100vw;
+    width: 100%;
     height: 400px;
 }
 
@@ -345,7 +344,7 @@ i:hover {
 /* collapsible paragrph styling */
 
 #dropdown-menu {
-    width: 100vw;
+    width: 100%;
 }
 
 #dropdown-menu li{
@@ -509,78 +508,16 @@ i:hover {
 .error-page {
     height: 65vh;
     width: 100vw;
-    width: 100vw;
-    height: 100vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    text-align: center;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/404-page.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-.four-cont {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    padding: 0 10px;
-}
+/* media queries */
+/* mobile */
 
-/* media queries - mobile */
-
-@media screen and (max-width:480px) {
-    /* main page styling */
-    .mf-logo{
-        width: 125px;
-        animation-name: none;
-        margin-top: 0px;
-        margin-left: 10px;
-    }
-
-    #nav-bar ul {
-        letter-spacing: 0;
-    }
-
-    #nav-bar a:hover {
-        pointer-events: none;
-    }
-
-    .slogan-zoom{
-        animation-name: none;
-    }
-
-    .hero-inner h1{
-        font-size: 50px;
-    }
-
-    .button{
-        font-size: 15px;
-    }
-
-    footer{
-        height: 63px;
-    }
-
-    /* minimal fitness page styling*/
-
-    .about-p {
-        font-size: 15px;
-        margin: 5px;
-    }
-
-    .about-circ-cont{
-        shape-outside: none;
-    }
+@media screen and (max-width: 320px) {
     
-    .about-me-cont p{
-        margin-top: -300px;
-        margin-left: 0;
-        line-height: 20px;
-        text-align: center;
-    }
+    
 }
