@@ -532,6 +532,18 @@ i:hover {
 }
 
 @media screen and (max-width:480px) {
+
+    .mf-logo{
+        width: 125px;
+        animation-name: none;
+    }
+
+
+
+    .slogan-zoom{
+        animation-name: none;
+    }
+
     .hero-inner h1{
         font-size: 50px;
     }
