@@ -531,14 +531,24 @@ i:hover {
     padding: 0 10px;
 }
 
-@media screen and (max-width:480px) {
+/* media queries - mobile */
 
+@media screen and (max-width:480px) {
+    /* main page styling */
     .mf-logo{
         width: 125px;
         animation-name: none;
+        margin-top: 0px;
+        margin-left: 10px;
     }
 
+    #nav-bar ul {
+        letter-spacing: 0;
+    }
 
+    #nav-bar a:hover {
+        pointer-events: none;
+    }
 
     .slogan-zoom{
         animation-name: none;
