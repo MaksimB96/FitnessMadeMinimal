@@ -498,18 +498,20 @@ i:hover {
 
 @media screen and (max-width: 800px) {
     
-    .nav-b{
-        display: flexbox;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
+    .mf-logo{
+        display: none;
     }
-  
 
-    #nav-bar ul{
+    .navbar{
+        justify-content: space-evenly;
+    }
+
+    .navbar .list{
         font-size: 15px;
-        letter-spacing: 0;
-        padding-top: 45px;
+    }
+    
+    .list .li-it{
+        margin: 0 auto;
     }
     
     .hero h1{
