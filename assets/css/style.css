@@ -565,4 +565,22 @@ i:hover {
     footer{
         height: 63px;
     }
+
+    /* minimal fitness page styling*/
+
+    .about-p {
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .about-circ-cont{
+        shape-outside: none;
+    }
+    
+    .about-me-cont p{
+        margin-top: -300px;
+        margin-left: 0;
+        line-height: 20px;
+        text-align: center;
+    }
 }
