@@ -574,4 +574,16 @@ i:hover {
         overflow: scroll;
     }
 
+    .ginc-box form{
+        flex-direction: column;
+    }
+
+    .mes textarea {
+        height: 80px;
+    }
+
+    .item, .mes{
+        width: 100%;
+    }
+
 }
