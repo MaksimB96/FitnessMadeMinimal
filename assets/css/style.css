@@ -539,7 +539,6 @@ i:hover {
     .a-box{
         height: 800px;
         display: block;
-        white-space: normal;
     }
 
     .about-circ-cont{
@@ -550,9 +549,7 @@ i:hover {
     }
 
     .about-me-cont .about-head{
-        text-align: center;
-        height: 2em;
-        width: auto;
+        display: none;
     }
 
     .about-me-cont p{
