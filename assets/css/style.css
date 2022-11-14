@@ -234,7 +234,8 @@ i:hover {
 /* About me container*/
 
 .amc{
-    background-color: var(--red);
+    background: url('../images/red-gradient.jpg') center no-repeat;
+    box-shadow: 0 0 10px;
 }
 
 .ami{
