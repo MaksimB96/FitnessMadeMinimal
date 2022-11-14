@@ -413,26 +413,32 @@ i:hover {
 
 /* Contact me styling*/
 
-.contact-section{
-    height: 65vh;
+.cs{
+    height: 75%;
     width: 100%;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/running-woman-sun.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contact-section h1{
+.wrap{
+    display: inline;
+}
+
+.wrap h1 {
     font-size: 40px;
+    margin-top: 0px;
     text-align: center;
     padding-top: 10px;
     text-shadow: 1px 1px 2px var(--black);
 }
 
 .contact-box {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    
     width: 100%;
     padding: 0 10px;
 
@@ -574,8 +580,23 @@ i:hover {
         overflow: scroll;
     }
 
+
+    /* Contact me styling */
+
+    .contact-section{
+        display: flex;
+        align-items: cneter;
+        justify-content: centers;
+    }
+
+    .contact-section h1{
+        margin-top: 135px;
+    }
+
     .ginc-box form{
         flex-direction: column;
+        box-shadow: none;
+        max-width: 200px;
     }
 
     .mes textarea {
