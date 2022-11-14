@@ -65,6 +65,26 @@ body p {
     height: 150px;
 }
 
+.mf-logo a{
+    pointer-events: none;
+}
+
+.mf-logo:hover{
+        animation-name: logo-zoom;
+        animation-fill-mode: forwards;
+        animation-duration: 1s;
+    }
+    
+    @keyframes logo-zoom {
+        from{
+            transform: scale(0.9);
+        }
+        to{
+            transform: scale(1.0);
+        }
+    }
+}
+
 /* nav bar selected and hover effect */
 
 .selected {
@@ -608,3 +628,4 @@ i:hover {
     }
 
 }
+
