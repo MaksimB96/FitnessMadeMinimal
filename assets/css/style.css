@@ -365,7 +365,6 @@ i:hover {
     padding: 0 10px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5sec;
     background-color: var(--matte-black);
 
 }
