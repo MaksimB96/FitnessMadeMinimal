@@ -516,7 +516,7 @@ i:hover {
 
 @media screen and (max-width:480px) {
 
-    .navbar{
+    .navbar {
         display: block;
     }
 
@@ -525,41 +525,45 @@ i:hover {
         text-align: center;
     }
 
-    .list{
+    .list {
         letter-spacing: 0;
         text-align: center;
     }
 
-    .hero h1{
+    .hero h1 {
         margin-top: -200px;
     }
 
-    .button{
+    .button {
         font-size: 15px;
     }
+
     /* about page */
 
     /* about me section */
 
-    .ami{
+    .ami {
         display: block;
     }
 
-    .ami img{
+    .ami img {
         text-align: center;
         height: 200px;
         margin-top: 10px;
         border-radius: 50%;
         border: 5px dotted var(--white);
     }
+
     /* 3 fitness elements */
 
-        iframe{
+    iframe {}
 
-        }
-        
     /* Contact me */
-    .contact-box{
+    .ginc-box form {
+        max-width: 150px;
+    }
+
+    .contact-box {
         padding: 0;
     }
 }
@@ -586,7 +590,7 @@ i:hover {
         margin-top: -200px;
     }
 
-    
+
 
     footer {
         height: 75px;
@@ -596,11 +600,11 @@ i:hover {
 
 
 
-    .ami{
+    .ami {
         display: block;
     }
 
-    .ami img{
+    .ami img {
         text-align: center;
         height: 200px;
         margin-top: 10px;
@@ -638,7 +642,6 @@ i:hover {
     .ginc-box form {
         flex-direction: column;
         box-shadow: none;
-        max-width: 200px;
     }
 
     .mes textarea {
