@@ -451,8 +451,6 @@ i:hover {
 
 .ginc-box form {
     max-width: 550px;
-    margin: 0 auto;
-    margin-bottom: 60px;
     background: rgba(0, 0, 0, 0.5);
     padding: 60px;
     border-radius: 5px;
@@ -467,6 +465,7 @@ i:hover {
     flex-direction: column;
     column-count: 2;
     margin-right: 4%;
+    padding-right: 15px;
 }
 
 .item,
@@ -592,10 +591,19 @@ i:hover {
 
     /* Contact me */
 
+    .cs{
+        height: 84vh;
+    }
+
+    .flex-con p{
+        text-align: center;
+    }
 
     .contact-box {
         padding: 0;
     }
+
+
 }
 
 
@@ -662,6 +670,10 @@ i:hover {
 
 
     /* Contact me styling */
+
+    .cs{
+        height: 83vh;
+    }
 
     .contact-section {
         display: flex;
