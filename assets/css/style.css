@@ -502,14 +502,33 @@ i:hover {
 /* 404 page styling */
 
 .error-page {
-    height: 65vh;
+    height: 84vh;
     width: 100vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/404-page.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.four-o h1{
+    font-size: 100px;
+}
+
+.button2{
+    font-size: 50px;
+    list-style-type: none;
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 5px;
+}
+
+.button2:hover{
+    color: var(--red);
+}
 /* media queries */
 
 /* mobile */
