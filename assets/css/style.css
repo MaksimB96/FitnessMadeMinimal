@@ -556,9 +556,13 @@ i:hover {
 
     /* 3 fitness elements */
 
+    .dtr-cont img{
+        border-radius: 50%;
+    }
+
     iframe {
         height: 150px;
-        width: 300px;
+        width: 280px;
     }
 
     /* Contact me */
@@ -616,6 +620,10 @@ i:hover {
     .pillar {
         margin-top: 10px;
         margin-right: 0;
+    }
+
+    .dtr-cont img{
+        border-radius: 50%;
     }
 
     .dtr-cont {
