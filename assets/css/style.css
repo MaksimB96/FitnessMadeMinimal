@@ -539,7 +539,29 @@ i:hover {
     }
     /* about page */
 
+    /* about me section */
 
+    .ami{
+        display: block;
+    }
+
+    .ami img{
+        text-align: center;
+        height: 200px;
+        margin-top: 10px;
+        border-radius: 50%;
+        border: 5px dotted var(--white);
+    }
+    /* 3 fitness elements */
+
+        iframe{
+
+        }
+        
+    /* Contact me */
+    .contact-box{
+        padding: 0;
+    }
 }
 
 
@@ -561,6 +583,7 @@ i:hover {
 
     .hero h1 {
         font-size: 50px;
+        margin-top: -200px;
     }
 
     
@@ -572,24 +595,21 @@ i:hover {
     /* minimal fitness page */
 
 
-    .about-circ-cont {
-        clear: both;
-        margin-top: 16px;
-        margin-left: 16px;
-        shape-outside: none;
+
+    .ami{
+        display: block;
     }
 
-
-    .about-me-cont p {
-        padding: 0;
-        margin-top: 0px;
-        margin-left: 0;
-        line-height: 20px;
+    .ami img{
         text-align: center;
+        height: 200px;
+        margin-top: 10px;
+        border-radius: 50%;
+        border: 5px dotted var(--white);
     }
 
-    .pillars {
-        margin-top: 0;
+    .pillar {
+        margin-top: 10px;
         margin-right: 0;
     }
 
