@@ -30,9 +30,9 @@ body p {
     font-family: 'Montserrat', sans-serifs;
 }
 
-.home-p{
+.home-p {
 
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/barbell.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/barbell.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -42,7 +42,7 @@ body p {
 
 /* nav bar and logo styling for home page*/
 
-.navbar{
+.navbar {
     color: var(--white);
     display: flex;
     justify-content: space-between;
@@ -52,36 +52,36 @@ body p {
     margin: 0 20px 0;
 }
 
-.list{
+.list {
     list-style-type: none;
 }
 
-.list .li-it{
+.list .li-it {
     display: inline-block;
     padding: 20px 10px;
 }
 
-.mf-logo{
+.mf-logo {
     height: 150px;
 }
 
-.mf-logo a{
+.mf-logo a {
     pointer-events: none;
 }
 
-.mf-logo:hover{
-        animation-name: logo-zoom;
-        animation-fill-mode: forwards;
-        animation-duration: 1s;
+.mf-logo:hover {
+    animation-name: logo-zoom;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+@keyframes logo-zoom {
+    from {
+        transform: scale(0.9);
     }
-    
-    @keyframes logo-zoom {
-        from{
-            transform: scale(0.9);
-        }
-        to{
-            transform: scale(1.0);
-        }
+
+    to {
+        transform: scale(1.0);
     }
 }
 
@@ -91,7 +91,7 @@ body p {
     border-bottom: 1px solid var(--white);
 }
 
-.navbar a{
+.navbar a {
     color: var(--white);
     text-decoration: none;
 }
@@ -112,12 +112,12 @@ body p {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     text-align: center;
 
 }
 
-.hero h1{
+.hero h1 {
     font-size: 150px;
     margin-top: -1.5em;
     margin-bottom: 0.5em;
@@ -133,10 +133,11 @@ body p {
 }
 
 @keyframes slo-zoom {
-    from{
+    from {
         transform: scale(0.9);
     }
-    to{
+
+    to {
         transform: scale(1.0);
     }
 }
@@ -148,7 +149,7 @@ body p {
     width: 150px;
     border: 1px solid var(--white);
     padding: 1em;
-    
+
     border-radius: 30px;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -163,42 +164,42 @@ body p {
 
 /* journey button hover effect*/
 
- .button:hover {
+.button:hover {
     color: var(--red);
     border: 1px solid var(--red);
- }
+}
 
- /* footer styling */
+/* footer styling */
 
- footer {
+footer {
     height: 150px;
- }
+}
 
- .socials {
+.socials {
     text-align: center;
- }
+}
 
- .socials > li {
+.socials>li {
     display: inline;
- }
+}
 
- .socials i {
+.socials i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: var(--white);
- }
+}
 
 /* socials hover effect*/
 
 i:hover {
     color: var(--red);
- }
+}
 
- /* header styling for website past home page*/
+/* header styling for website past home page*/
 
 .hero-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/dumbell-rack.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/dumbell-rack.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -233,30 +234,30 @@ i:hover {
 
 /* About me container*/
 
-.amc{
+.amc {
     background: url('../images/red-gradient.jpg') center no-repeat;
     box-shadow: 0 0 10px;
 }
 
-.ami{
+.ami {
     display: flex;
     text-align: center;
     align-items: center;
 }
 
-.amt{
+.amt {
     text-shadow: 1px 1px 2px var(--black);
 }
 
-.amt h2{
+.amt h2 {
     font-size: 40px;
 }
 
-.amt p{
+.amt p {
     line-height: 40px;
 }
 
-.pillars{
+.pillars {
     margin-top: 30px;
 }
 
@@ -264,20 +265,20 @@ i:hover {
 
 /* pointer events removal from w3schools*/
 
-.dtr-cont{
+.dtr-cont {
     display: flex;
     justify-content: center;
     margin: 30px;
     pointer-events: none;
 }
 
-.pillars{
+.pillars {
     text-align: center;
     font-size: 40px;
 }
 
 
-.dtr-cont img{
+.dtr-cont img {
     margin: 30px 30px;
     border-radius: 10px;
     object-fit: cover;
@@ -287,13 +288,13 @@ i:hover {
 
 /* Transform values and centering text and pointer events from w3 schools*/
 
-.diet-cont  {
+.diet-cont {
     position: relative;
     text-align: center;
 }
-    
 
-.cent-diet  {
+
+.cent-diet {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -301,12 +302,12 @@ i:hover {
     font-size: 30px;
 }
 
-.train-cont  {
+.train-cont {
     position: relative;
     text-align: center;
 }
 
-.cent-train  {
+.cent-train {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -314,12 +315,12 @@ i:hover {
     font-size: 30px;
 }
 
-.rest-cont  {
+.rest-cont {
     position: relative;
     text-align: center;
 }
 
-.cent-rest  {
+.cent-rest {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -333,7 +334,7 @@ i:hover {
     width: 100%;
 }
 
-#dropdown-menu li{
+#dropdown-menu li {
     list-style-type: none;
     width: 100%;
     margin-bottom: 10px;
@@ -350,13 +351,13 @@ i:hover {
     cursor: pointer;
 }
 
-#dropdown-menu li label span{
+#dropdown-menu li label span {
     transform: rotate(90deg);
     font-size: 22px;
 
 }
 
-#dropdown-menu label + input[type="radio"]{
+#dropdown-menu label+input[type="radio"] {
     display: none;
 }
 
@@ -369,23 +370,23 @@ i:hover {
 
 }
 
-#dropdown-menu label + input[type="radio"]:checked + .content{
+#dropdown-menu label+input[type="radio"]:checked+.content {
     max-height: 600px;
 
 }
 
 .first {
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/pineapples.jpg') center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/pineapples.jpg') center no-repeat;
     object-fit: cover;
 }
 
 .second {
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/gymhll.jpg') center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/gymhll.jpg') center no-repeat;
     object-fit: cover;
 }
 
 .third {
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/bedrest.jpg') center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bedrest.jpg') center no-repeat;
     object-fit: cover;
 }
 
@@ -397,7 +398,7 @@ i:hover {
     margin-top: 15px;
 }
 
-.content a{
+.content a {
     color: var(--red);
 }
 
@@ -412,10 +413,10 @@ i:hover {
 
 /* Contact me styling*/
 
-.cs{
+.cs {
     height: 75%;
     width: 100%;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/running-woman-sun.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/running-woman-sun.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -424,7 +425,7 @@ i:hover {
     align-items: center;
 }
 
-.wrap{
+.wrap {
     display: inline;
 }
 
@@ -437,7 +438,7 @@ i:hover {
 }
 
 .contact-box {
-    
+
     width: 100%;
     padding: 0 10px;
 
@@ -453,6 +454,7 @@ i:hover {
     display: flex;
     box-shadow: 0 0 10px;
 }
+
 /* Item styling*/
 
 .item {
@@ -462,11 +464,13 @@ i:hover {
     margin-right: 4%;
 }
 
-.item, .mes {
+.item,
+.mes {
     width: 48%;
 }
 
-.item .inputs, .mes textarea {
+.item .inputs,
+.mes textarea {
     margin: 10px 0;
     background: transparent;
     border: 0;
@@ -484,7 +488,7 @@ i:hover {
 
 /* submit styling */
 
-.contact-box .btn{
+.contact-box .btn {
     padding: 10px;
     border-radius: 5px;
     height: 30px;
@@ -500,7 +504,7 @@ i:hover {
 .error-page {
     height: 65vh;
     width: 100vw;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/404-page.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/404-page.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -509,40 +513,56 @@ i:hover {
 /* media queries */
 /* mobile */
 
+@media screen and (max-width:480px) {
+
+    .navbar{
+        display: block;
+    }
+
+    .mf-logo {
+        height: 90px;
+        text-align: center;
+    }
+
+    .list{
+        letter-spacing: 0;
+        text-align: center;
+    }
+}
 
 
 @media screen and (max-width: 800px) {
-    
-   
 
-    .navbar{
+
+
+    .navbar {
         justify-content: space-evenly;
     }
 
-    .navbar .list{
+    .navbar .list {
         font-size: 15px;
     }
-    
-    .list .li-it{
+
+    .list .li-it {
         margin: 0 auto;
     }
-    
-    .hero h1{
+
+    .hero h1 {
         font-size: 50px;
     }
 
-    .button{
+    .button {
         font-size: 20px;
     }
 
-    footer{
+    footer {
         height: 75px;
     }
 
     /* minimal fitness page */
 
 
-    .about-circ-cont{
+    .about-circ-cont {
         clear: both;
         margin-top: 16px;
         margin-left: 16px;
@@ -550,7 +570,7 @@ i:hover {
     }
 
 
-    .about-me-cont p{
+    .about-me-cont p {
         padding: 0;
         margin-top: 0px;
         margin-left: 0;
@@ -563,29 +583,29 @@ i:hover {
         margin-right: 0;
     }
 
-    .dtr-cont{
+    .dtr-cont {
         flex-direction: column;
         align-items: center;
     }
 
-    #dropdown-menu label + input[type="radio"]:checked + .content{
+    #dropdown-menu label+input[type="radio"]:checked+.content {
         overflow: scroll;
     }
 
 
     /* Contact me styling */
 
-    .contact-section{
+    .contact-section {
         display: flex;
-        align-items: cneter;
-        justify-content: centers;
+        align-items: center;
+        justify-content: center;
     }
 
-    .contact-section h1{
+    .contact-section h1 {
         margin-top: 135px;
     }
 
-    .ginc-box form{
+    .ginc-box form {
         flex-direction: column;
         box-shadow: none;
         max-width: 200px;
@@ -595,9 +615,9 @@ i:hover {
         height: 80px;
     }
 
-    .item, .mes{
+    .item,
+    .mes {
         width: 100%;
     }
 
 }
-
