@@ -511,6 +511,7 @@ i:hover {
 }
 
 /* media queries */
+
 /* mobile */
 
 @media screen and (max-width:480px) {
@@ -528,6 +529,17 @@ i:hover {
         letter-spacing: 0;
         text-align: center;
     }
+
+    .hero h1{
+        margin-top: -200px;
+    }
+
+    .button{
+        font-size: 15px;
+    }
+    /* about page */
+
+
 }
 
 
@@ -551,9 +563,7 @@ i:hover {
         font-size: 50px;
     }
 
-    .button {
-        font-size: 20px;
-    }
+    
 
     footer {
         height: 75px;
