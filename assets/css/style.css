@@ -400,7 +400,7 @@ i:hover {
 
 .am-ul {
     text-align: center;
-    font-family: var(--montserrt);
+    font-family: 'Montserrat', sans-serifs;
     margin-top: 15px;
 }
 
@@ -485,7 +485,7 @@ i:hover {
     background: transparent;
     border: 0;
     border-bottom: 2px solid var(--white);
-    font-family: var(--montserrt);
+    font-family: 'Montserrat', sans-serifs;
     padding: 10px;
     color: var(--white);
     width: 100%;
@@ -495,7 +495,7 @@ i:hover {
 /* placeholder color and opacity from w3schools  */
 ::placeholder{
     color: var(--white);
-    opacity: 2;
+    opacity: 1;
 }
 
 .mes textarea {
@@ -509,7 +509,7 @@ i:hover {
     border-radius: 5px;
     height: 30px;
     width: 100%;
-    font-family: var(--montserrt);
+    font-family: 'Montserrat', sans-serifs;
     background: #5c5555;
     color: white;
     cursor: pointer;
@@ -521,7 +521,7 @@ i:hover {
 .error-page {
     height: 84vh;
     width: 100vw;
-    background-image: var(--matte-black);
+    background: var(--matte-black);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
