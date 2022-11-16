@@ -37,3 +37,22 @@
 
 ## Project Goals
 
+### User Goals
+    -Finding a site that provides simple but effective fitness advice
+    -Gain a better understanding for the fundamentals of training
+    -Gain a better understanding for the fundamentals of diet
+    -Gain a better understanding for the fundamentals of rest
+    -Finding supporting information to gain deeper knowledge
+    -Get in contact with Peronal trainer for additional advice
+
+### Site Owner Goals
+    -Provide a simple, modern and uncluttered approck to fitness
+    -Provide information to the fundamentals with supporting links and videos
+    -Provide a means to get into contact
+    -Provide a site that also reflects these ideas
+
+    
+
+
+
+

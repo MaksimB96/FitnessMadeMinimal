@@ -381,17 +381,17 @@ i:hover {
 }
 
 .first {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/pineapples.jpg') center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/pineapples2.jpg') center no-repeat;
     object-fit: cover;
 }
 
 .second {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/gymhll.jpg') center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/barbell2.jpg') center no-repeat;
     object-fit: cover;
 }
 
 .third {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bedrest.jpg') center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/tent-rest.jpg') center no-repeat;
     object-fit: cover;
 }
 
@@ -404,7 +404,7 @@ i:hover {
 }
 
 .content a {
-    color: var(--red);
+    color: #e86868;
 }
 
 .jn-min {
@@ -509,7 +509,7 @@ i:hover {
     height: 30px;
     width: 100%;
     font-family: var(--montserrt);
-    background: var(--red);
+    background: #5c5555;
     color: white;
     cursor: pointer;
     font-weight: bolder;
