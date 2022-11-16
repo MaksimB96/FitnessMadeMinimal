@@ -521,7 +521,7 @@ i:hover {
 .error-page {
     height: 84vh;
     width: 100vw;
-    background: var(--matte-black);
+    background-color: var(--matte-black);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
