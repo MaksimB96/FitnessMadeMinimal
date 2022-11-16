@@ -226,6 +226,14 @@ W3C mark-up was utilised in order to validate html of the website. All Pages pas
 <img src="docs/validation/contact.png">
 </details>
 
+<br>
+
+### CSS Validation
+W3C CSS validator was utilised in order to make sure the css code passes standards with no errors.
+
+<details><summary>Full Document</summary>
+<img src="docs/validation/css-valid.png">
+</details>
 
 
 
