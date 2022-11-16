@@ -235,6 +235,38 @@ W3C CSS validator was utilised in order to make sure the css code passes standar
 <img src="docs/validation/css-valid.png">
 </details>
 
+<br>
+
+### Accessability
+Wave WebAIM was utilized in order to make sure the website met high accessability standards. All pages pass with no errors or contrast errors.
+
+<details><summary>Home</summary>
+<img src="docs/validation/index-wave.png">
+</details>
+<details><summary>Minimal Fitness</summary>
+<img src="docs/validation/about-wave.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/contact-wave.png">
+</details>
+
+<br>
+
+### Performance
+Google light house was used in order to confirm good standards of performace
+
+<details><summary>Home</summary>
+<img src="docs/validation/index-perf.png">
+</details>
+<details><summary>Minimal Fitness</summary>
+<img src="docs/validation/about-perf.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/sign-up-perf.png">
+</details>
+
+
+
 
 
 
