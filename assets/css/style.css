@@ -485,6 +485,12 @@ i:hover {
     height: 40%;
 }
 
+/* placeholder color nd opacity from w3schools  */
+::placeholder{
+    color: var(--white);
+    opacity: 2;
+}
+
 .mes textarea {
     height: 212px;
 }
