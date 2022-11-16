@@ -500,6 +500,7 @@ i:hover {
     background: var(--red);
     color: white;
     cursor: pointer;
+    font-weight: bolder;
 }
 
 /* 404 page styling */
