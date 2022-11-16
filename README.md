@@ -146,7 +146,7 @@ The website is made up of 3 pages:
     -Favicon.io
 
 ## Features
-The Website consits of 3 pages with 10 features
+The Website consits of 3 pages with 11 features
 
 ### Logo and Nav-Bar
     -featured on all three pages
@@ -194,12 +194,37 @@ The Website consits of 3 pages with 10 features
 
 ![3 Fitness Elements](docs/features/div-pictures.png)
 
+### Iframe in Accordion
+    -Provides supporting material with full user control
+
+![Iframe](docs/features/iframe.png)
+
 ### Accordion with hover selector
     -Provides condensed info that expands on button press
 
 ![Accordion](docs/features/accordion.png)
 ![Accordion](docs/features/accordion-exp.png)
 ![Accordion](docs/features/selector-hover.png)
+
+### Contact Form
+    -Provides a medium for contact and user interaction
+
+![Contact](docs/features/contact-feat.png)
+
+## Validation
+
+### HTML Validation
+W3C mark-up was utilised in order to validate html of the website. All Pages pass with no errors.
+
+<details><summary>Home</summary>
+<img src="docs/validation/index.png">
+</details>
+<details><summary>Minimal Fitness</summary>
+<img src="docs/validation/about.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/contact.png">
+</details>
 
 
 
