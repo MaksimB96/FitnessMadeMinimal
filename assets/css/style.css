@@ -65,10 +65,6 @@ body p {
     height: 150px;
 }
 
-.mf-logo a {
-    pointer-events: none;
-}
-
 .mf-logo:hover {
     animation-name: logo-zoom;
     animation-fill-mode: forwards;
@@ -444,10 +440,11 @@ i:hover {
 }
 
 
-.flex-con p{
+.flex-con p {
     text-shadow: 1px 1px 2px var(--black);
     padding-bottom: 10px;
 }
+
 .contact-box {
 
     width: 100%;
@@ -493,7 +490,7 @@ i:hover {
 }
 
 /* placeholder color and opacity from w3schools  */
-::placeholder{
+::placeholder {
     color: var(--white);
     opacity: 1;
 }
@@ -604,16 +601,16 @@ i:hover {
 
     /* Contact me */
 
-    .cs{
+    .cs {
         height: 84vh;
     }
 
-    .flex-con h1{
+    .flex-con h1 {
         font-size: 33px;
         padding-top: 15px;
     }
 
-    .flex-con p{
+    .flex-con p {
         text-align: center;
         font-size: 15px;
     }
@@ -690,7 +687,7 @@ i:hover {
 
     /* Contact me styling */
 
-    .cs{
+    .cs {
         height: 83vh;
     }
 
