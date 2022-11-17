@@ -144,6 +144,7 @@ The website is made up of 3 pages:
     -bl.ocks.org
     -Font Awesome
     -Favicon.io
+    -miniPaint
 
 ## Features
 The Website consists of 3 pages with 11 features
@@ -343,6 +344,61 @@ Google light house was used in order to confirm good standards of performace
 |             |            |                      |                  |
 |Contact Form| Enter text fields| User enters form and additdional questions| Works as intended|
 <br>
+
+## Bugs
+
+| **Bug** | **Fix** | 
+|---------|---------|
+|         |         | 
+|Paragraph constantly showing error| Through process of elimination, it was determined that lists could not be nested in paragraphs|
+|Picture of me layout issues|Float properties and shape outside tool made it difficult to make responsive, flex box utilised instead|
+|Performance issues on page 2| Assigned new images that were compressed|
+|Page 2 poor anchor issues on Wave| Utilising aria labels fixed this|
+
+
+## Deployment
+
+Deployment of site was acheived through these steps:
+1. I navigated to the settings section on git hub repositories on my repository.
+2. I then selected the pages link on the left side.
+3. I then selected source for the branch prompt.
+4. Roughly, 2 minutes after refreshing I recieved a link to my site: https://maksimb96.github.io/FitnessMadeMinimal/index.html 
+
+## Credits
+
+### Media
+
+1. The following were sourced from <a href="https://www.pexels.com/"> Pexels.com </a>
+
+    1. barbell.jpg
+    2. barbell2.jpg
+    3. bedrest.jpg
+    4. dumbell-rack.jpg
+    5. dumbell2.jpg
+    6. gymhll.jpg
+    7. red-cherry.jpg
+    8. resting.jpg
+    9. soup.jpg
+    
+    font awesome script and icons from font awesome
+
+2. The following are owned by me and my PT company
+    1. red-white-logo
+    2. pic-of-me
+    
+### Code 
+
+1. 404 page code provided by Mo Shami_mentor from code institue
+2. favicon idea provided by Mo Shami_mentor, site used found <a href="https://favicon.io/"> here</a>
+3. Accordion inspiration found on youtube, by <a href="https://www.youtube.com/watch?v=oCx4gtYe410"> Easy Tutorials</a>
+4. Footer inspiration, zoom animation found from 'love running project' by code institute
+5. Text shadow property take from <a href="https://www.w3schools.com/cssref/css3_pr_text-shadow.php"> w3schools</a>
+6. minimal contact box inspiration found on youtube by <a href="https://www.youtube.com/watch?v=l_Z3N3etkS0">Coding Market</a>
+7. placeholder text color found on w23schools <a href="https://www.w3schools.com/csSref/sel_placeholder.php#:~:text=The%20%3A%3Aplaceholder%20selector%20selects,value%20of%20an%20input%20field.">link here</a>
+8. Form dump link used from code institute execises
+9. pointer events removal from <a href="https://stackoverflow.com/questions/46949984/removing-pointer-events-none-property-not-working"> Stack overflow </a>
+
+
 
 
 
