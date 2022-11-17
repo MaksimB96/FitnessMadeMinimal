@@ -608,8 +608,14 @@ i:hover {
         height: 84vh;
     }
 
+    .flex-con h1{
+        font-size: 33px;
+        padding-top: 15px;
+    }
+
     .flex-con p{
         text-align: center;
+        font-size: 15px;
     }
 
     .contact-box {
