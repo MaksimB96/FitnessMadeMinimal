@@ -27,13 +27,13 @@
 6. [Code Validation & Testing](#validation)
     * [Html](#html-val)
     * [Css](#css-val)
-    * [Acessability](#ac-val)
-    * [Perforamnce](#per-val)
-    * [User Story Testing](#user-story-test)
+    * [Acessability](#acessability)
+    * [Perforamnce](#performnce)
+    * [User Story Testing](#user-story-testing)
 7. [Bugs](#bugs)
 8. [Deployment](#deploy)
-9. [Credits](#credit)
-10. [Acknowledgements](#Ackno)
+9. [Credits](#credits)
+10. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 
@@ -129,7 +129,7 @@ The website is made up of 3 pages:
 <img src="docs/wireframes/contact.png">
 </details>
 
-## Technologies Used
+## Tech Used
 
 ### Languages
     -HTML
@@ -418,6 +418,13 @@ Deployment of site was acheived through these steps:
 8. Form dump link used from code institute execises
 9. pointer events removal from <a href="https://stackoverflow.com/questions/46949984/removing-pointer-events-none-property-not-working"> Stack overflow </a>
 
+
+## Acknowledgements
+
+-I would like to thank Victor my mentor
+-CI for provide me the knowledge to under-take this task
+-My beautiful girlfriend who almost got all my typos
+-The wonderful community over on Slack!
 
 
 
