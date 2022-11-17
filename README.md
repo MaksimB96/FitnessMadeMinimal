@@ -174,6 +174,7 @@ The Website consists of 3 pages with 11 features
     -main slogan zooms in on landing page to draw in visitors
     -Button has hover effect to provide selection feedback
     -footer icons have hover effect to provide clear feedback
+    -User stories adressed: 9.
 
 ![Slogan button & Navbar](docs/features/slogan-small.png)
 ![Slogan button & Navbar](docs/features/slogan-big.png)
@@ -182,11 +183,14 @@ The Website consists of 3 pages with 11 features
 
 ### What is Minimal Fitness segemt
     -Provides information regarding what this website aims to achieve
+    -User stories adressed: 3.
 
 ![What is Minimal Fitness](docs/features/wimf.png)
 
 ### About Me segment
     -Provides information regarding the personal trainer
+    -User stories adressed: 11
+   
 
 ![About Me](docs/features/about-me-feat.png)
 
@@ -197,11 +201,13 @@ The Website consists of 3 pages with 11 features
 
 ### Iframe in Accordion
     -Provides supporting material with full user control
+     -User stories adressed: 3.
 
 ![Iframe](docs/features/iframe.png)
 
 ### Accordion with hover selector
     -Provides condensed info that expands on button press
+    -User stories adressed: 1, 2,  5, 6, 7, 10.
 
 ![Accordion](docs/features/accordion.png)
 ![Accordion](docs/features/accordion-exp.png)
@@ -209,6 +215,7 @@ The Website consists of 3 pages with 11 features
 
 ### Contact Form
     -Provides a medium for contact and user interaction
+    -User stories adressed: 12,8.
 
 ![Contact](docs/features/contact-feat.png)
 
