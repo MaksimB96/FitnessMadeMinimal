@@ -70,7 +70,7 @@
 ### User Stories
 
 #### First-time User
-1. As a first time user, I want more information regarding fitness
+1. As a first time user, I want more information regarding fitness and be drawn in
 2. As a first time user, I want more information regarding training fundamentals
 3. As a first time user, I want information presented in one location
 4. As a first time user, I want to get in contact with a fitness professional in order to obtain more answers
@@ -154,6 +154,7 @@ The Website consists of 3 pages with 11 features
     -Nav bar has selected item in order to give clear feedback to location.
     -Pages 2/3 have a slight difference in appearance but over all same design in order to not disrupt immersion.
     -Nav bar hover turns text red in order to give clear feedback to where you are about to go.
+    -User stories adressed: 1.
     
 ![Logo & Navbar](docs/features/navbar1.png)
 ![Logo & Navbar](docs/features/navbar2.png)
@@ -272,6 +273,76 @@ Google light house was used in order to confirm good standards of performace
 <details><summary>Contact</summary>
 <img src="docs/validation/sign-up-perf.png">
 </details>
+
+<br>
+
+### Tests
+
+#### Devices tested on on:
+    -Iphone SE
+    -Iphone XR
+    -Iphone 12
+    -Ipad
+    -Macbook Pro
+
+### Testing User Stories
+
+1. As a first time user, I want more information regarding fitness and be drawn in
+2. As a first time user, I want more information regarding training fundamentals
+5. As a returning user I want to refresh my knowledge on fitness
+6. As a returning user I want to get back on track with my calorie intake
+7. As a returning user I want to get back on track with my training 
+10. As a site owner I want people to locate relevant information to fitness 
+<br>
+
+| **Feature** | **Action** | **Expected Results** | **Final Result** |
+|-------------|------------|----------------------|------------------|
+|             |            |                      |                  |
+| Home page, slogan zoom accordion| Button click, accordion expands into additional information| Home page will provide prompt to click, Accordion will provide solid information| Interactivaity of home page prompts click and accordion provides solid information with relevent links|
+|3 Fitness elements| Visual Aid to locate fundamentals| Draws users to pictures then to accordion| Better response to read further|
+|Accordion Icon Hover| Icon turns red on hover and is distinguishable| Clear visual prompt to press closed accordion| User prompted to press as it is intuative|
+<br>
+
+
+
+3. As a first time user, I want information presented in one location
+
+| **Feature** | **Action** | **Expected Results** | **Final Result** |
+|-------------|------------|----------------------|------------------|
+|             |            |                      |                  |
+|Iframe| user has access to video aid and full control| Iframe works well and allows full user control| Iframe responsive and alllows full user control|
+<br>
+
+
+
+4. As a site owner I want people to get to know the PT
+
+| **Feature** | **Action** | **Expected Results** | **Final Result** |
+|-------------|------------|----------------------|------------------|
+|             |            |                      |                  |
+|About Me| Source of information for who the PT is| User scrolls to find information| Works as expected|
+<br>
+
+
+
+9. As a returning user I want to be able to locate relevant social links
+
+| **Feature** | **Action** | **Expected Results** | **Final Result** |
+|-------------|------------|----------------------|------------------|
+|             |            |                      |                  |
+|Footer| social link icons| User will interact with Icons| Works as as intended|
+<br>
+
+
+
+8. As a returning user I want to have a clear pathway to getting into contact with a fitness professional
+12. As a site owner I want individuals to get in contact
+
+| **Feature** | **Action** | **Expected Results** | **Final Result** |
+|-------------|------------|----------------------|------------------|
+|             |            |                      |                  |
+|Contact Form| Enter text fields| User enters form and additdional questions| Works as intended|
+<br>
 
 
 
